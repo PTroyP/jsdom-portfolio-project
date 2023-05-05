@@ -239,7 +239,7 @@
     <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
       <div class="container-fluid">
         <header class="modal-header">
-          <h3>ABOUT PAGE</h3>
+          <h3 class="header-medium">ABOUT PAGE</h3>
           <i class="fas fa-times" data-close></i>
         </header>
         <div class="modal-body">
@@ -283,14 +283,20 @@
           <i class="fas fa-times" data-close></i>
         </header>
         <div class="modal-body">
-          <div class="img-wrapper">
-            <img src="./assets/images/Troy.circle-small.png" alt="headshot">
+          <div class="contact-text">
+            <h2 class="header-medium">Troy Parker</h2>
+            <div>Have a project or question? Send me a message.</div>
+            <div>I will reply within 48 hours.</div>
           </div>
-          <h2>Troy Parker</h2>
-          <p>text 1</p>
-          <p>text 2</p>
-          <div>Email Me:</div>
-          <a href="mailto:troy@gmail.com">troy@gmail.com</a>
+          <form class="folio-form">
+            <input class="form-control" name="name" type="text" placeholder="Name">
+            <input class="form-control" name="email" type="email" placeholder="Email">
+            <input class="form-control" name="subject" type="text" placeholder="Subject">
+            <textarea class="form-control" name="message" cols="30" rows="3"
+              placeholder="Write your message..."></textarea>
+            <input type="submit" value="Send" class="btn btn-primary round-pill">
+          </form>
+
         </div>
       </div>
     </div>
